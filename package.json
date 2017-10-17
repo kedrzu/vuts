@@ -18,7 +18,7 @@
     "url": "https://github.com/kedrzu/vuts/issues"
   },
   "homepage": "https://github.com/kedrzu/vuts#readme",
-  "dependencies": {
+  "devDependencies": {
     "ts-loader": "^3.0.2",
     "typescript": "^2.5.3",
     "vue": "^2.5.2",
