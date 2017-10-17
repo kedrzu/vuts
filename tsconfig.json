@@ -1,0 +1,17 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "module": "commonjs",
+      "lib": ["es2015", "dom"],
+      "moduleResolution": "node",  
+      "allowSyntheticDefaultImports": true,
+      "outDir": "./types",
+      "target": "es5",
+      "sourceMap": true,
+      "declaration": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
