@@ -1,4 +1,4 @@
-import { Vue, ComponentOptions } from 'vue';
+import Vue, { ComponentOptions } from 'vue';
 
 import * as config from "./config";
 import * as defs from "./defs";

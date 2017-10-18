@@ -316,7 +316,7 @@ function setupComponent(component, options) {
 exports.setupComponent = setupComponent;
 function extendComponent(component, options) {
     var base = Object.getPrototypeOf(component);
-    component.options = vue_1.Vue['util'].mergeOptions(base.options, options);
+    component.options = vue_1.default['util'].mergeOptions(base.options, options);
     component.extend = base.extend;
     component.mixin = base.mixin;
     component.use = base.use;

@@ -1,4 +1,4 @@
-import { Vue, Component } from "vue";
+import Vue, { Component } from "vue";
 export interface ComponentConstructor {
     new (...args: any[]): Vue;
 }
