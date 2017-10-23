@@ -1,12 +1,11 @@
 {
   "name": "vuts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/vuts.js",
   "typings": "dist/types/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack && webpack -p"
+    "build": "npx webpack && npx webpack -p"
   },
   "repository": {
     "type": "git",
