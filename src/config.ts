@@ -32,6 +32,10 @@ export function getComponentConfigsFlat(component: Function, key: symbol): any {
     return flatten;
 }
 
+function foo() {
+    // nothing much
+}
+
 export function getComponentConfigs(component: Function, key: symbol) : Object[] {
     var sources = [];
     var proto = component.prototype;
